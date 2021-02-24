@@ -5,14 +5,20 @@ body {
 h1 {
     font-family:Georgia, 'Times New Roman', Times, serif;
     text-align: center;
-    border: black 2px solid;
+    border: rgba(0, 0, 0, 0.479) 2px solid;
     background-color: #D9BD73;
-    text-shadow: 1px 1px 1px #000
+    text-shadow: 1px 1px 1px #000;
+    color: rgba(0, 0, 0, 0.568);
 }
 
 nav {
+    position: left;
     background-color: #D9BD73;
     padding: 16px
+}
+
+img {
+    border-radius:15px 
 }
 .dropbtn {
     background-color:rgba(0, 0, 0, 0.288);
