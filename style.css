@@ -22,7 +22,7 @@ img {
 }
 .dropbtn {
     background-color:rgba(0, 0, 0, 0.288);
-    color: white;
+    color: rgb(0, 0, 0);
     padding: 16px;
     font-size: 16px;
 }
