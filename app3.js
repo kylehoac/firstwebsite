@@ -5,4 +5,4 @@ function specialMessage(){
         document.write('<h2>' + 'Goodbye ' + userNameOutside + '</h3>');
     }
 }
-specialMessage();
+// specialMessage();

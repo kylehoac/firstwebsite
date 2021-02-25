@@ -16,4 +16,4 @@ if (hourNow > 18) {
 document.write("<h3>" + greeting + "</h3>");
 }
 
-getHours();
+//getHours();
