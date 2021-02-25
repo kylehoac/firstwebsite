@@ -1,4 +1,5 @@
-let today = new Date();
+function getHours(){
+    let today = new Date();
 let hourNow = today.getHours();
 let greeting;
 
@@ -13,3 +14,6 @@ if (hourNow > 18) {
 }
 
 document.write("<h3>" + greeting + "</h3>");
+}
+
+getHours();
