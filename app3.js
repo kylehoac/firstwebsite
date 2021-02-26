@@ -1,8 +1,12 @@
-function specialMessage(){
-    if (userName == 'Kyle'){
-        document.write('<h2>' + 'Goodbye Kyle' + '</h3>');
-    } else {
-        document.write('<h2>' + 'Goodbye ' + userNameOutside + '</h3>');
-    }
-}
-// specialMessage();
+// function didyoushower(){
+//     let shower = prompt('Have you showered today');
+//     if (shower == 'yes'){
+//         alert('you dont smell bad!');
+//     }   else if (shower == 'no'){
+//         alert('you smell bad!');
+//     }   else {
+//         alert('Please take a shower');
+//     }
+//     return shower;
+// }
+// let shower = didyoushower();

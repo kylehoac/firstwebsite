@@ -33,6 +33,36 @@ if (hourNow > 18) {
 document.write("<h3>" + greeting + "</h3>");
 }
 
+function numberGuessingGame(){
+    let correctAnswer = 7;
+    let guesses = 5;
+    for(let i = 0; i < guesses; i++){
+        let userAnswer = prompt('Please enter a number from 1-10');
+        if(userAnswer == correctAnswer){
+            alert('You got it right')
+            break;
+        }
+    }
+}
 
+numberGuessingGame();
 
-//document.write('img src="https://images.unsplash.com/photo-1507838153414-b4b713384a76?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1650&q=80"'); . 
+function didyoushower(){
+    let shower = prompt('Have you showered today');
+    if (shower == 'yes'){
+        alert('you dont smell bad!');
+    }   else if (shower == 'no'){
+        alert('you smell bad!');
+    }   else {
+        alert('Please take a shower');
+    }
+    return shower;
+}
+let shower = didyoushower();
+
+function starrating(){
+    let answer = prompt('Please rate my website 1-5 stars');
+    for(let i = 0; i < answer; i++){
+        document.write(`<img src="https://toppng.com/uploads/preview/5-point-stars-png-star-icon-flat-11562958768wpf63hu4tq.png">`);
+    }
+}
